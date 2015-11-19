@@ -1,4 +1,4 @@
-# MANUAL RECAUDAPP 2 v1.0 #
+# MANUAL RECAUDAPP v1.0 #
 
 **RECAUDAPP** es una aplicación de gestión de bares y recaudación que trabajaba bajo el Sistema Operativo Android , en esta primera versión.
 
