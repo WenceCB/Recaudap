@@ -66,6 +66,8 @@ CAPTURA
 
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
+![RecaudaRapido](RecaudaRapido.tiff)
+
 ## OPCIONES AVANZADAS ##
 
 Cuenta con un login para poder ejecutar un script que interactúe con la base de datos ( Actualmente no está disponible porque se pretende trabajar con una base de datos en servidor para limitar al cliente )
