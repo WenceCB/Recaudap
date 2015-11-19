@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wence.recaudap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuMain"
+            android:label="@string/title_activity_menu_main"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Bar_activity"
+            android:label="@string/title_activity_bar_activity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Setting_activity"
+            android:label="@string/title_activity_setting_activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Recaudar"
+            android:label="@string/title_activity_recaudar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecaudarRapido"
+            android:label="@string/title_activity_recaudar_rapido"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/bar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NOMBRE BAR"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        android:layout_marginBottom="10dp"
+        android:background="#cf3610"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/barDueno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DUEÑO BAR"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/dir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Dirección"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/m1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Maquina1"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ENT"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/sal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="SAL"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="REC"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/coor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="COOR"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:id="@+id/IbRecaudar"
+            android:src="@drawable/botoncoinflat"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onRecaudar" />
+
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map" />
+
+</LinearLayout>

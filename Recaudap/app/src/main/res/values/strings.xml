@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Recaudap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_main">MenuMain</string>
+    <string name="title_activity_bar_activity">Bar_activity</string>
+    <string name="title_activity_detalle__bar_activity">Detalle_Bar_activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_setting_activity">Setting_activity</string>
+    <string name="title_activity_maquina_activity">Maquina_activity</string>
+    <string name="title_activity_recaudar">Recaudar</string>
+    <string name="title_activity_genera_pdf">generaPdf</string>
+
+    <string name="invoice_number">Nº</string>
+    <string name="invoice_date">Date:</string>
+    <string name="company">Company:</string>
+
+    <string name="invoice_subtotal">Recaudación Bruto:</string>
+    <string name="invoice_tax">Local:</string>
+
+    <string name="client_title">Client info</string>
+    <string name="client_name">Client name:</string>
+    <string name="client_telephone">Client telephone:</string>
+    <string name="client_country">Client country:</string>
+
+    <string name="detail_code">Code</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_amount">Amount</string>
+    <string name="detail_price">Price</string>
+    <string name="detail_total">Empresa</string>
+    <string name="create_pdf_button">New Button</string>
+    <string name="create_pdf_file">Crear documento PDF</string>
+    <string name="read_pdf_file">Leer documento PDF</string>
+    <string name="email_pdf_file">Enviar PDF por Email</string>
+    <string name="title_activity_recaudar_rapido">RecaudarRapido</string>
+</resources>

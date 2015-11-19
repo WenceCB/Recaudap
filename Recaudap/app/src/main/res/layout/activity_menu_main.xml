@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:padding="20dp"
+android:weightSum="1"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="146dp"
+            android:id="@+id/imageFotoPerfil"
+            android:layout_weight="0.21" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textviewBienvenida"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonBar"
+                android:src="@drawable/botonbarflat"
+                android:onClick="onBares"
+                android:layout_gravity="center"
+                android:layout_alignTop="@+id/imageButtonMaq"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonRec"
+            android:src="@drawable/botoncoinflat"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:onClick="onRecaudaRapido"
+            android:layout_alignTop="@+id/imageButtonMaq"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonSetting"
+            android:src="@drawable/flatsetting"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onSetting"
+            android:layout_alignTop="@+id/imageButtonMaq"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

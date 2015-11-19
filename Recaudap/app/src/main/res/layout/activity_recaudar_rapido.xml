@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECAUDAR RÁPIDO"
+        android:id="@+id/tvNombreBar"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTADORES ANTERIORES"
+        android:id="@+id/tvContAnt"
+        android:textSize="20dp"
+        android:background="#1cc4ea"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entradas"
+            android:id="@+id/tvEntAntiguas"
+            android:layout_weight="0"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="150dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salidas"
+            android:id="@+id/tvSalidasAntiguas"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEntAnt"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etSalAnt"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="6"
+            android:gravity="center"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTADORES ACTUALES"
+        android:id="@+id/tvContAct"
+        android:textSize="20dp"
+        android:background="#1cc4ea"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entradas"
+            android:id="@+id/tvEntradasActuales"
+            android:layout_weight="0"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="150dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salidas"
+            android:id="@+id/tvSalidasActuales"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEntAct"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxWidth="26dp"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etSalAct"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="6"
+            android:inputType="number"
+            android:maxWidth="26dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TASAS"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#1cc4ea"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTasas"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:maxLength="4"
+        android:inputType="number"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECAUDACIÓN"
+        android:id="@+id/tvRecaudacion"
+        android:textSize="20dp"
+        android:background="#1cc4ea"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/tvTtotal"
+            android:layout_weight="0"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local"
+            android:id="@+id/tvTlocal"
+            android:layout_weight="0"
+            android:layout_marginRight="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empresa"
+            android:id="@+id/tvTEmpresa"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTotal"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLocal"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="10"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmpresa"
+            android:layout_weight="0.18"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="10"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbrecaudar"
+            android:src="@drawable/botoncoinflat"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:onClick="onRecaudacionRapida" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbgenerapdf"
+            android:src="@drawable/generarpdf"
+            android:layout_marginRight="20dp"
+            android:onClick="onGenerarPDFRR" />
+    </LinearLayout>
+
+</LinearLayout>

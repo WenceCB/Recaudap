@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.wence.recaudap.Setting_activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTRODUCE LA CONTRASEÑA DE ADMINISTRADOR PARA ACTUALIZAR LA BASE DE DATOS"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassAdmin"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="PassWord"
+            android:inputType="number" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACEPTAR"
+            android:id="@+id/bAceptar"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onLoginAdmin" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etConsulta"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.38" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR BD"
+            android:id="@+id/bActualizarBD"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
