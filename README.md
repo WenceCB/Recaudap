@@ -66,7 +66,7 @@ CAPTURA
 
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
-![RecaudaRapido](RecaudaRapido.tiff)
+![RecaudaRapido](~/RecaudaRapido.tiff)
 
 ## OPCIONES AVANZADAS ##
 
