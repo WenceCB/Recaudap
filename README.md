@@ -67,7 +67,7 @@ CAPTURA
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
 ![RecaudaRapido](https://github.com/WenceCB/Recaudap/blob/master/RecaudaRapido.tiff)
-![aa](/relative/path/to/RecaudaRapido.tiff?raw=true)
+![aa](RecaudaRapido.tiff?raw=true)
 ![ScreenShot](https://raw.github.com/{WenceCB}/{Recaudapp}/{blob}/{master}/{RecaudaRapido.tiff})
 https://github.com/WenceCB/Recaudap/blob/master/RecaudaRapido.tiff
 ## OPCIONES AVANZADAS ##
