@@ -67,8 +67,8 @@ CAPTURA
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
 
-![screen](https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true{width=40px height=40px})
-<img src=RecaudarRapido.png width=600 height=100 />
+![screen](https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true)
+<img src=RecaudarRapido.png?raw=true width=600 height=100 />
 
 ## OPCIONES AVANZADAS ##
 
