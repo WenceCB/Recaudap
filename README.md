@@ -66,15 +66,9 @@ CAPTURA
 
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
-![RecaudaRapido](https://github.com/WenceCB/Recaudap/RecaudaRapido.tiff)
-![RecaudaRapido](https://github.com/WenceCB/Recaudap/RecaudaRapido.tiff?raw=true)
-![aa](/Recaudap/RecaudaRapido.tiff?raw=true)
-![ScreenShot](https://raw.github.com/{WenceCB}/{Recaudapp}/{raw}/{master}/{RecaudaRapido.tiff})
-https://github.com/WenceCB/Recaudap/blob/master/RecaudaRapido.tiff
-![scree](https://github.com/WenceCB/Recaudap/raw/master/RecaudaRapido.tiff)
+
 ![screen](https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true)
-![s](/Recaudapp/Capturas/RecaudarRapido.png)
-![s](/Recaudapp/Capturas/RecaudarRapido.png?raw=true)
+
 ## OPCIONES AVANZADAS ##
 
 Cuenta con un login para poder ejecutar un script que interactúe con la base de datos ( Actualmente no está disponible porque se pretende trabajar con una base de datos en servidor para limitar al cliente )
