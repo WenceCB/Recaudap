@@ -68,7 +68,8 @@ Al igual que el anterior genera las operaciones para recaudar pero insertando to
 
 
 ![screen](https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true)
-<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true width=480 height=640 />
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true width=480 height=640/>
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true width=270 height=480/>
 
 ## OPCIONES AVANZADAS ##
 
