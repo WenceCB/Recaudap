@@ -68,7 +68,7 @@ Al igual que el anterior genera las operaciones para recaudar pero insertando to
 
 ![RecaudaRapido](https://github.com/WenceCB/Recaudap/RecaudaRapido.tiff)
 ![RecaudaRapido](https://github.com/WenceCB/Recaudap/RecaudaRapido.tiff?raw=true)
-![aa](RecaudaRapido.tiff?raw=true)
+![aa](/Recaudap/RecaudaRapido.tiff?raw=true)
 ![ScreenShot](https://raw.github.com/{WenceCB}/{Recaudapp}/{raw}/{master}/{RecaudaRapido.tiff})
 https://github.com/WenceCB/Recaudap/blob/master/RecaudaRapido.tiff
 [scree](https://github.com/WenceCB/Recaudap/raw/master/RecaudaRapido.tiff)
