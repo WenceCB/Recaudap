@@ -68,7 +68,7 @@ Al igual que el anterior genera las operaciones para recaudar pero insertando to
 
 ![RecaudaRapido](https://github.com/WenceCB/Recaudap/blob/master/RecaudaRapido.tiff)
 ![aa](/relative/path/to/RecaudaRapido.tiff?raw=true)
-
+![ScreenShot](https://raw.github.com/{WenceCB}/{Recaudapp}/{master}/{RecaudaRapido.tiff})
 ## OPCIONES AVANZADAS ##
 
 Cuenta con un login para poder ejecutar un script que interactúe con la base de datos ( Actualmente no está disponible porque se pretende trabajar con una base de datos en servidor para limitar al cliente )
