@@ -13,7 +13,7 @@ En la versión inicial se ha creado un usuario y contraseña de prueba:
 - **Usuario** -> (`Wence`) 
 - **Contraseña** -> (`123`)
 
-CAPTURA
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/login.png?raw=true width=270 height=480/>
 
 ## MENÚ PRINCIPAL ##
 
@@ -23,11 +23,13 @@ En el menú principal podemos encontrar los botones que dan acceso a diferentes 
 - **Recaudar Rápido** -> Permite una recaudación introduciendo todos los datos manualmente
 - **Opciones Avanzadas** -> Permite actualizar la base de datos en local *(`v2.0`)
 
-CAPTURA
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/Mprincipal.png?raw=true width=270 height=480/>
 
 ## BARES ##
 
 Muestra un listado de Bares disponibles , pulsando sobre el que se desea , se abre una nueva actividad con los siguientes campos
+
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/Bar.png?raw=true width=270 height=480/>
 
 - Nombre del bar
 - Dueño del Bar
@@ -36,39 +38,28 @@ Muestra un listado de Bares disponibles , pulsando sobre el que se desea , se ab
 - Botón Recaudar
 - Mapa con posición
 
-Captura
-
 Pulsando sobre el Marcador en el mapa , se puede proceder al guiado desde la posición actual hasta el destino(`Marcador`)
-
-Captura
-
 Pulsando en el botón Recaudar , se abre la actividad Recaudar
 
-Captura
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/MapsActivity.png?raw=true width=270 height=480/>
 
 ##RECAUDAR##
 
 En esta actividad los Contadores anteriores ya están introducidos y el usuario solo tendría que completar con los Contadores Actuales y las Tasas
 
-Captura
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/Recaudar.png?raw=true width=270 height=480/>
 
 Cuenta con dos botones
-
-CAPTURA
 
 - Recaudar : Genera las operaciones necesarias para calcular la parte correspondiente al Total , Local y Empresa
 - Generación PDF : Permite confeccionar un PDF en forma de factura que se adjunta automáticamente al correo electrónico con los datos de la recaudación.
 
-
-CAPTURA
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/Informe.png?raw=true width=270 height=480/>
 
 ##RECAUDAR RÁPIDO##
 
 Al igual que el anterior genera las operaciones para recaudar pero insertando todos los datos de manera manual
 
-
-![screen](https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true)
-<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true width=480 height=640/>
 <img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/RecaudarRapido.png?raw=true width=270 height=480/>
 
 ## OPCIONES AVANZADAS ##
@@ -76,3 +67,5 @@ Al igual que el anterior genera las operaciones para recaudar pero insertando to
 Cuenta con un login para poder ejecutar un script que interactúe con la base de datos ( Actualmente no está disponible porque se pretende trabajar con una base de datos en servidor para limitar al cliente )
 
 - **Contraseña** -> (`123`)
+
+<img src=https://raw.githubusercontent.com/WenceCB/Recaudap/master/Capturas/OpcionesAvanzadas.png?raw=true width=270 height=480/>
